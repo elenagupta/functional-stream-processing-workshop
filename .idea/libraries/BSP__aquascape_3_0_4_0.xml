@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="BSP: aquascape_3-0.4.0" external-system-id="BSP">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/zainab-ali/aquascape_3/0.4.0/aquascape_3-0.4.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/zainab-ali/aquascape_3/0.4.0/aquascape_3-0.4.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

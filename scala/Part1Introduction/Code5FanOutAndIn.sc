@@ -3,8 +3,10 @@ import fs2.*
 import cats.effect.*
 import scala.concurrent.duration.*
 
-def fanIn[A](input: Stream[IO, Stream[IO, A]]): Stream[IO, A] =
+def fanIn[A](input: Stream[IO, Stream[IO, A]]): Stream[IO, A] = {
   input.parJoinUnbounded
+  // from a stream of titles we produce a stream of words and run those in parallel
+}
 
 def fanOut[A, B](
     input: Stream[IO, A],

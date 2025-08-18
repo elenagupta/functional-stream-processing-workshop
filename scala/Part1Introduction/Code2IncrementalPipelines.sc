@@ -9,6 +9,7 @@ def mostCommonInList(ids: List[String]): String = {
   val (mostCommonId, _) = finalCounts.maxBy { case (_, count) => count }
   mostCommonId
 }
+//problem with memory <- will run out when building a list too large and mapping as well
 
 def mostCommonInStream(ids: Stream[Pure, String]): String = {
   val initialCounts: Map[String, Int] = Map.empty

@@ -1,12 +1,15 @@
+
 import fs2.*
 
 /* Functional stream processing */
 
 /* A list-based approach is testable and easy to reason through, but runs out of memory for large values */
+// this is a functional approach
 def countNumbersList(until: Int, predicate: Int => Boolean): Int =
   List.range(0, until).filter(predicate).size
 
 /* A loop is not composable, so is not easy to test or reason through */
+// this is an imperative approach
 def countNumbersLoop(until: Int, predicate: Int => Boolean): Int = {
   var count: Int = 0
   var i: Int = 0
@@ -41,8 +44,10 @@ def countNumbersStream(until: Int, predicate: Int => Boolean): Long =
 /* Streams vs Lists */
 
 /* fs2 stream operators are similar to those of lists. For example, there is a range operator. However there is a huge difference between streams and lists. To explore this, consider the stream of numbers from 0 to Int.MaxValue: */
-val numbersList = List.range(0, Int.MaxValue)
-val numbers = Stream.range(0, Int.MaxValue)
+//val numbersList = List.range(0, Int.MaxValue)
+val numbersList = List.range(0, 12)
+//val numbers = Stream.range(0, Int.MaxValue)
+val numbers = Stream.range(0, 12)
 
 val numbersListCount = numbersList.size
 
@@ -50,7 +55,10 @@ val numbersListCount = numbersList.size
 val numbersCount = numbers.compile.count
 
 /* We can create a stream backed by a list with the emits function  */
-val numbersFromList = Stream.emits(List.range(0, Int.MaxValue))
+//val numbersFromList = Stream.emits(List.range(0, Int.MaxValue))
+val numbersFromList = Stream.emits(List.range(0, 12))
 
 /* We can compile a stream to a list with the toList function */
 val numbersListFromStream = numbers.toList
+
+println("Hello world")

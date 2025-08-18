@@ -9,8 +9,45 @@ class Ex2IncrementalPipelines extends CatsEffectSuite {
   val oneAndFortyTwo: Stream[Pure, String] =
     Stream("u42", "u1", "u42").repeatN(100)
 
+//  def mostCommon(k: Int, ids: Stream[Pure, String]): String = {
+//    // Replace this implementation with the Misra Gries summary.
+//    val initialCounts: Map[String, Int] = Map.empty
+//    val finalCounts = ids
+//      .fold(initialCounts) { (counts, id) =>
+//        val previousCount = counts.getOrElse(id, 0)
+//        counts + ((id, previousCount + 1))
+//      }
+//      .compile
+//      .last
+//      .getOrElse(initialCounts)
+//    val (mostCommonId, _) = finalCounts.maxBy { case (_, count) => count }
+//    mostCommonId
+//  }
+
+/*  algorithm misra -gries:
+  input: A positive integer k
+          A finite sequence s taking values in the range 1, 2,..., m
+  output: An associative array A with frequency estimates
+  for each item in s
+
+        A := new(empty) associative array
+  while s is not empty :
+    take a value i from s
+    if i is in keys (A):
+      A[i] := A[i] + 1 //increment the count if element exists in map
+    else if | keys (A) | < k -1:
+      A[i] := 1
+    else:
+    for each K in keys (A):
+          A[K] := A[K] - 1 
+        if A[K]
+    = 0:
+    remove K from keys (A) //this is removing an element an element if is count is 0 to add different values in instead
+  return A
+ most common element in map is the most common value in stream
+*/
+  
   def mostCommon(k: Int, ids: Stream[Pure, String]): String = {
-    // Replace this implementation with the Misra Gries summary.
     val initialCounts: Map[String, Int] = Map.empty
     val finalCounts = ids
       .fold(initialCounts) { (counts, id) =>

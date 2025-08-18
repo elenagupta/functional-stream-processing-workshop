@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="file:$MODULE_DIR$/../../../../Scala%20Projects/ScalaDaysProject/.scala-build/?id=ScalaDaysProject_dfaf3a5746" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="BSP" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_21">
+    <output url="file://$MODULE_DIR$/../../.scala-build/ScalaDaysProject_dfaf3a5746/classes/main" />
+    <output-test url="file://$MODULE_DIR$/../../.scala-build/ScalaDaysProject_dfaf3a5746/classes/test" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../..">
+      <sourceFolder url="file://$MODULE_DIR$/../../cheatsheet/HtmlOutput.scala" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../cheatsheet/MethodCallMacro.scala" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../cheatsheet/WriteCheatSheet.scala" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../cheatsheet/model.scala" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../project.scala" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../scala/Part1Introduction/Code1WhatAreStreams.sc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../scala/Part1Introduction/Code2IncrementalPipelines.sc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../scala/Part1Introduction/Code3ReasoningAboutStreamProcessing.sc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../scala/Part1Introduction/Code4CombiningOperators.sc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../scala/Part1Introduction/Code5FanOutAndIn.sc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../scala/Part1Introduction/Ex1WhatAreStreams.solutions.test.scala" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../scala/Part1Introduction/Ex1WhatAreStreams.test.scala" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../scala/Part1Introduction/Ex2IncrementalPipelines.solutions.test.scala" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../scala/Part1Introduction/Ex2IncrementalPipelines.test.scala" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../scala/Part1Introduction/Ex3Combining.solutions.test.scala" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../scala/Part1Introduction/Ex3Combining.test.scala" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../scala/Part1Introduction/Ex4FanOutAndIn.solutions.test.scala" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../scala/Part1Introduction/Ex4FanOutAndIn.test.scala" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../scala/Part1Introduction/Fig1Evaluation.scala" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../scala/Part1Introduction/Fig2Take.scala" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../scala/Part1Introduction/Fig3CombiningZip.scala" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../scala/Part1Introduction/Fig3FlatMap.scala" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../scala/Part2HandlingSideEffects/Code1CatsEffectIO.sc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../scala/Part2HandlingSideEffects/Code2EffectfulStreams.sc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../scala/Part2HandlingSideEffects/Code3Errors.sc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../scala/Part2HandlingSideEffects/Code5Bracket.sc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../scala/Part2HandlingSideEffects/Code6Chunks.sc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../scala/Part2HandlingSideEffects/Ex1Effects.solutions.test.scala" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../scala/Part2HandlingSideEffects/Ex1Effects.test.scala" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../scala/Part2HandlingSideEffects/Ex2WordCount.scala" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../scala/Part2HandlingSideEffects/Ex3Errors.solutions.test.scala" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../scala/Part2HandlingSideEffects/Ex3Errors.test.scala" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../scala/Part2HandlingSideEffects/Ex4Bracket.solutions.test.scala" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../scala/Part2HandlingSideEffects/Ex4Bracket.test.scala" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../scala/Part2HandlingSideEffects/ExIOApp.scala" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../scala/Part2HandlingSideEffects/Fig1Effects.scala" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../scala/Part2HandlingSideEffects/Fig2Errors.scala" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../scala/Part2HandlingSideEffects/Fig3HandleErrorWith.scala" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../scala/Part2HandlingSideEffects/Fig5Chunks.scala" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../scala/Part2HandlingSideEffects/Fig6EvalMap.scala" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../scala/Part2HandlingSideEffects/Fig7EvalMapChunk.scala" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../scala/Part3ConcurrentSystems/Code1Concurrency.sc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../scala/Part3ConcurrentSystems/Code2SharedState.sc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../scala/Part3ConcurrentSystems/Ex1Metrics.solutions.test.scala" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../scala/Part3ConcurrentSystems/Ex1Metrics.test.scala" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../scala/Part3ConcurrentSystems/Fig1ParEvalMap.scala" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../scala/Part3ConcurrentSystems/Fig2ParEvalMapUnordered.scala" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../scala/Part3ConcurrentSystems/Fig3ParEvalMapNondeterminism.scala" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../scala/Part3ConcurrentSystems/Fig4Order.scala" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../scala/Part4StreamsAtScale/Code1Channel.sc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../scala/Part4StreamsAtScale/Ex1Logger.solutions.test.scala" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../scala/Part4StreamsAtScale/Ex1Logger.test.scala" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../scala/Part5Application/Ex1GameApp.scala" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../scala/Part5Application/Game.scala" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../scala/Part5Application/Game1GrowingCircle.scala" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../scala/Part5Application/Game2ResettingCircle.scala" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../scala/Part5Application/Game3FruitPicking.scala" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../scala/Part5Application/solution/GameApp.scala" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../scala/Part5Application/solution/GameAppWithError.scala" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../scala/Part5Application/solution/GameAppWithErrorAndLogging.scala" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../scala/Part5Application/solution/GameAppWithErrorAndLoggingAndMetrics.scala" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../scala/WorkshopAquascapeApp.scala" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../scalajs/WorkshopAquascapeApp.scala" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/../../.bloop" />
+      <excludeFolder url="file://$MODULE_DIR$/../../.bsp" />
+      <excludeFolder url="file://$MODULE_DIR$/../../.scala-build" />
+    </content>
+    <orderEntry type="jdk" jdkName="temurin-21" jdkType="JavaSDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="BSP: scala-sdk-3.7.0" level="project" />
+    <orderEntry type="module-library" scope="TEST">
+      <library name="BSP: ScalaDaysProject_dfaf3a5746 test dependencies">
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="BSP: VectorGraphics2D-0.13" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: VectorGraphics2D-0.13" level="project" />
+    <orderEntry type="library" name="BSP: aquascape_3-0.4.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: aquascape_3-0.4.0" level="project" />
+    <orderEntry type="library" name="BSP: cats-core_3-2.13.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: cats-core_3-2.13.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: cats-effect-kernel-testkit_3-3.6.3" level="project" />
+    <orderEntry type="library" name="BSP: cats-effect-kernel_3-3.6.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: cats-effect-kernel_3-3.6.3" level="project" />
+    <orderEntry type="library" name="BSP: cats-effect-std_3-3.6.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: cats-effect-std_3-3.6.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: cats-effect-testkit_3-3.6.3" level="project" />
+    <orderEntry type="library" name="BSP: cats-effect_3-3.6.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: cats-effect_3-3.6.3" level="project" />
+    <orderEntry type="library" name="BSP: cats-free_3-2.13.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: cats-free_3-2.13.0" level="project" />
+    <orderEntry type="library" name="BSP: cats-kernel_3-2.13.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: cats-kernel_3-2.13.0" level="project" />
+    <orderEntry type="library" name="BSP: cats-mtl_3-1.3.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: cats-mtl_3-1.3.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: coop_3-1.2.0" level="project" />
+    <orderEntry type="library" name="BSP: decline_3-2.5.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: decline_3-2.5.0" level="project" />
+    <orderEntry type="library" name="BSP: doodle-algebra_3-0.30.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: doodle-algebra_3-0.30.0" level="project" />
+    <orderEntry type="library" name="BSP: doodle-core_3-0.30.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: doodle-core_3-0.30.0" level="project" />
+    <orderEntry type="library" name="BSP: doodle-interact_3-0.30.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: doodle-interact_3-0.30.0" level="project" />
+    <orderEntry type="library" name="BSP: doodle-java2d_3-0.30.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: doodle-java2d_3-0.30.0" level="project" />
+    <orderEntry type="library" name="BSP: fs2-core_3-3.12.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: fs2-core_3-3.12.0" level="project" />
+    <orderEntry type="library" name="BSP: fs2-io_3-3.12.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: fs2-io_3-3.12.0" level="project" />
+    <orderEntry type="library" name="BSP: geny_3-1.1.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: geny_3-1.1.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: hamcrest-core-1.3" level="project" />
+    <orderEntry type="library" name="BSP: ip4s-core_3-3.6.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: ip4s-core_3-3.6.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: junit-4.13.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: junit-interface-1.0.0" level="project" />
+    <orderEntry type="library" name="BSP: literally_3-1.1.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: literally_3-1.1.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: munit-cats-effect_3-2.1.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: munit-diff_3-1.0.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: munit_3-1.0.0" level="project" />
+    <orderEntry type="library" name="BSP: scala-library-2.13.16" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: scala-library-2.13.16" level="project" />
+    <orderEntry type="library" name="BSP: scala3-library_3-3.7.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: scala3-library_3-3.7.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: scalacheck_3-1.17.1" level="project" />
+    <orderEntry type="library" name="BSP: scalatags_3-0.13.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: scalatags_3-0.13.1" level="project" />
+    <orderEntry type="library" name="BSP: scodec-bits_3-1.1.38" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: scodec-bits_3-1.1.38" level="project" />
+    <orderEntry type="library" name="BSP: semanticdb-javac-0.10.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: semanticdb-javac-0.10.0" level="project" />
+    <orderEntry type="library" name="BSP: sourcecode_3-0.4.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: sourcecode_3-0.4.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: test-interface-1.0" level="project" />
+  </component>
+  <component name="PersistentBspTargetIdHolder">
+    <option name="selected" value="file:$MODULE_DIR$/../../../../Scala%20Projects/ScalaDaysProject/.scala-build/?id=ScalaDaysProject_dfaf3a5746" />
+  </component>
+</module>
