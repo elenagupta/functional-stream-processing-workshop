@@ -6,9 +6,19 @@ import cats.effect.unsafe.implicits.global
 
 /** A ref can be used to safely share state */
 val counter = Ref.of[IO, Int](0).unsafeRunSync()
+/* A Ref is like a box which contains a value we can then change
+ we can access the Ref of streams which are running concurrently
+ right now Ref has a value of 0
+*/
 
 /** It has get, set and update functions */
-counter.get.unsafeRunSync()
+counter.get.unsafeRunSync() //this is an IO which gets the value inside the Ref
+
+/* Could also do counter.set(42) and this means that counter.get.unsafeRunSynch() is 42
+NOTE: We need unsafeRunSynch() in order for it to compile and get the new value set to it
+ */
+
+
 
 counter
   .set(42)
@@ -41,6 +51,11 @@ incrementEverySecond
   .compile
   .drain
   .unsafeRunSync()
+
+/* Can do Stream(incrementEverySecond, printTwicePerSecond).parJoinUnbounded
+    .compile.drain.timeout(5.seconds)
+The output will be a combination of the counter incrementing by 1 and being printed out twice the same number
+ */
 
 import fs2.concurrent.*
 
@@ -76,3 +91,8 @@ SignallingRef
       .drain
   }
   .unsafeRunSync()
+
+/* .discrete gives a stream of Integers and gives the discrete values of Ref
+discrete will only output an element when the value changes
+as well, there is a .continuous function which will keep printing out the numbers
+ */

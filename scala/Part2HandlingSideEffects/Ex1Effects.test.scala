@@ -14,13 +14,13 @@ class Ex1Effects extends CatsEffectSuite {
 
   test("Mao eats, then Popcorn eats") {
     // Use the kittens stream and the eat function to solve this problem.
-    val result: Stream[IO, String] = ???
+    val result: Stream[IO, String] = kittens.evalMap(cat => eat(cat))
     assertIO(result.compile.toList, List("Mao eats.", "Popcorn eats."))
   }
 
   test("Mao eats infinitely") {
     // Use the kittens stream and the eat function to solve this problem.
-    val result: Stream[IO, String] = ???
+    val result: Stream[IO, String] = kittens.evalMap(cat => eat(cat)).take(1).repeat
     assertIO(result.take(2).compile.toList, List("Mao eats.", "Mao eats.")) *>
       assertIO(
         result.take(3).compile.toList,
@@ -31,7 +31,7 @@ class Ex1Effects extends CatsEffectSuite {
   test("Mao plays once") {
     // Use the kittens stream and the play function to solve this problem.
     TestHelper().flatMap { testHelper =>
-      val result: Stream[IO, Unit] = ???
+      val result: Stream[IO, Unit] = kittens.evalMap(cat => play(testHelper, cat)).take(1)
       assertIO(result.compile.drain *> testHelper.get, List("Mao plays."))
     }
   }
@@ -39,7 +39,7 @@ class Ex1Effects extends CatsEffectSuite {
   test("Mao plays infinitely") {
     TestHelper().flatMap { testHelper =>
       // Use the kittens stream and the play function to solve this problem.
-      val result: Stream[IO, Unit] = ???
+      val result: Stream[IO, Unit] = kittens.evalMap(cat => play(testHelper, cat)).take(1).repeat
       assertIO(
         result.take(2).compile.drain *> testHelper.get,
         List("Mao plays.", "Mao plays.")
