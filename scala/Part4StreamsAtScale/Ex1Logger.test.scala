@@ -14,7 +14,22 @@ class Ex1Logger extends CatsEffectSuite {
   /** Use channels to construct a logger. Messages should be passed through the
     * `writeToDisk` pipe.
     */
-  def makeLogger(writeToDisk: Pipe[IO, String, Nothing]): IO[Logger] = ???
+  
+  /* 
+  Pipe: same as Stream[IO, String] => Stream[IO, Nothing]
+  */
+  
+  def makeLogger(writeToDisk: Pipe[IO, String, Nothing]): IO[Logger] =
+    Channel.synchronous[IO, String]
+      .flatMap { channel =>
+        new Logger {
+          def log(message: String): IO[Unit] = channel.send(message)
+          def writeInBackground[A]: Pipe[IO, A, A] = { 
+            in => in.concurrently(writeToDisk(channel.stream))
+          }
+        }
+      }
+  
 
   test("Should log messages from different producers") {
     val messages = Recorder()
