@@ -85,7 +85,7 @@ object Game3FruitPicking
     }
 
     def input(text: String): Option[Command] = text match {
-      case "pick" => Some(Command.PickFruit)
+      case "a" => Some(Command.PickFruit)
       case _      => None
     }
 
